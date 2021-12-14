@@ -19,7 +19,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('mail/sent', function () {
+Route::get('mail/send', function () {
     UserMailableJob::dispatch();
 
     return 'Mail sent successfully';
