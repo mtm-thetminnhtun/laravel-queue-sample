@@ -2,8 +2,13 @@
 
 This is a laravel queue sample project.
 
-## Installation
+[Tutorial](https://github.com/thetminnhtun-scm/laravel-queue-sample/wiki/Mail-sending-using-queue-by-database-driver)
 
+## Requirement
+
+- PHP 8.0 or higher
+- Laravel 8.0 or higher
+- Database
 ## Installation
 
 Clone the repo locally:
