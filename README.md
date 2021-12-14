@@ -69,6 +69,12 @@ If you don't need to send actually. Just change `smtp` to `log` in `MAIL_MAILER`
 MAIL_MAILER=log
 ```
 
+Change Queue connection in `.env` file
+
+```
+QUEUE_CONNECTION=database
+```
+
 Run database migrations:
 
 ```
